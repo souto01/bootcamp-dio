@@ -13,14 +13,22 @@ public class Usuario {
         smartTv.desligar();
         System.out.println( " Novo Status - " + smartTv.ligada);
         
+     
         smartTv.aumentarVolume();
         System.out.println( " Novo Volume - " + smartTv.volume);
 
-        smartTv.abaixarVolume();
+        smartTv.diminuirVolume();
         System.out.println( " Novo Volume - " + smartTv.volume);
 
-        smartTv.mudarCanal();
+        smartTv.mudarCanal(15);
         System.out.println( " Novo Canal - " + smartTv.canal);
+
+        smartTv.aumentarCanal();
+        System.out.println( " Novo Canal - " + smartTv.canal);
+        
+        smartTv.diminuirCanal();
+        System.out.println( " Novo Canal - " + smartTv.canal);
+        
 
 
     }
